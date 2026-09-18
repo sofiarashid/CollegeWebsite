@@ -1,0 +1,66 @@
+/* ===== Navbar ===== */
+.navbar-home {
+    background-color: #293F6F;
+    min-height: 120px;
+    padding: 10px 20px;
+}
+
+.navbar-home .logo {
+    height: 100px;
+    width: auto;
+    margin-right: 30px;
+}
+
+.navbar-home .navbar-nav {
+    width: 100%;
+}
+
+.navbar-home .nav-link:first-of-type {
+    margin-left: auto;
+}
+
+.navbar-home .nav-link {
+    background-color: #E3C362;
+    color: #111 !important;
+    font-weight: 700;
+    margin: 5px;
+    padding: 12px 20px !important;
+    border-radius: 8px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.navbar-home .nav-link:hover {
+    background-color: #E3C362;
+    transform: translateY(-2px);
+}
+
+.navbar-home .nav-link.active {
+    background-color: #E4D7AD;
+    color: #111 !important;
+}
+
+
+/* carasoul */
+.carousel {
+height: 
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 1.5s ease-in-out;
+}
+
+.carousel-item {
+    display: block;
+    flex: 0 0 100%;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
